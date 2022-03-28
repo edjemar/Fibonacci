@@ -10,7 +10,9 @@ namespace Fibonacci_Iterative
     {
         public static void Main()
         {
-            int firstNumber = 0, SecondNumber = 1, nextNumber, numberOfElements;
+            //int firstNumber = 0, SecondNumber = 1, nextNumber, numberOfElements;
+            int firstNumber = 1, SecondNumber = 1, nextNumber, numberOfElements;
+            Console.Write("Introduzca el número de elementos a Imprimir \n");
             Console.Write("Enter the number of elements to Print : ");
             numberOfElements = int.Parse(Console.ReadLine());
             if (numberOfElements < 2)

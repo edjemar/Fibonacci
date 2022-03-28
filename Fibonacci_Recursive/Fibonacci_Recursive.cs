@@ -11,6 +11,7 @@ namespace Fibonacci_Recursive
         static void Main(string[] args)
         {
             //Ingrese la longitud de la serie de Fibonacci
+            Console.Write("Ingrese la longitud de la serie de Fibonacci \n");
             Console.Write("Please enter the Length of the Fibonacci Series : ");
             int number = int.Parse(Console.ReadLine());
             FibonacciSeries(0, 1, 1, number);
